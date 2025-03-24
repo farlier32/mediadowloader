@@ -8,5 +8,5 @@ router = Router()
 @router.message(Command("start"))
 async def start_handler(msg: Message):
 
-    await msg.answer('Привет')
+    await msg.answer('Привет, присылай ссылку на InstaReels, TikTok, YouTube, SoundCloud')
 
